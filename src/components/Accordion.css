@@ -1,0 +1,21 @@
+.accordion-button {
+  background-color: #bbdefb;
+  padding: 5px 15px 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion-button:hover,
+.button-active {
+  background-color: #64b5f6
+}
+
+.button-active {
+  cursor: auto;
+}
+
+.chevron-active {
+  transform: rotate(90deg);
+}
